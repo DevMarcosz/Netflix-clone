@@ -1,0 +1,31 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .filme-principal{
+       height: 500px;
+       background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/capa2.jpg) no-repeat;
+    }
+    .filme-principal .descricao{
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .botao{
+        font-size: 10px;
+        width: 190px;    
+        height: 20px;
+        margin-bottom: 5px;
+    }
+    nav{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
